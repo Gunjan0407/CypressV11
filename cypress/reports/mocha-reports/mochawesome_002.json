@@ -1,0 +1,113 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-11-23T12:24:33.532Z",
+    "end": "2022-11-23T12:24:57.846Z",
+    "duration": 24314,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0c95d8dd-67ef-411c-a909-57ba97d86ec8",
+      "title": "",
+      "fullFile": "cypress\\e2e\\AmazonSearch.spec.cy.js",
+      "file": "cypress\\e2e\\AmazonSearch.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "63d03430-82f0-4eaa-b474-2e73c56f571a",
+          "title": "Verify Search option on Amazon",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify Search option is available ",
+              "fullTitle": "Verify Search option on Amazon Verify Search option is available ",
+              "timedOut": null,
+              "duration": 23829,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\AmazonSearch.spec.cy.js\\\\Verify Search option on Amazon -- Verify Search option is available (failed).png\"\n      }\n    ]\n  ]\n}",
+              "code": "",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 3000ms: expected '<input#twotabsearchtextbox.nav-input.nav-progressive-attribute>' not to be 'visible'",
+                "estack": "AssertionError: Timed out retrying after 3000ms: expected '<input#twotabsearchtextbox.nav-input.nav-progressive-attribute>' not to be 'visible'\n    at Context.eval (webpack:///./cypress/e2e/AmazonSearch.spec.cy.js:5:35)",
+                "diff": null
+              },
+              "uuid": "463fc76f-3b82-4405-b33c-42e05875f667",
+              "parentUUID": "63d03430-82f0-4eaa-b474-2e73c56f571a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "463fc76f-3b82-4405-b33c-42e05875f667"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 23829,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha-reports",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "embeddeScreenshots": true,
+        "code": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
